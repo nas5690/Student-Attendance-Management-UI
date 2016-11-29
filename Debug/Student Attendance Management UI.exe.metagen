@@ -1,0 +1,62 @@
+  Project3.Main.resources - Embedded, ContainedInManifestFile, 
+  Project3.Patient.resources - Embedded, ContainedInManifestFile, 
+  Project3.Person.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Student Attendance Management UI, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project3.Person: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label7 : Public
+    System.Windows.Forms.TextBox searchtxt : Public
+    System.Windows.Forms.Button searchbtn : Public
+Class Project3.Patient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button searchbtn : Public
+    System.Windows.Forms.Button okbtn : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.Label label3 : Public
+    System.Windows.Forms.Label label4 : Public
+    System.Windows.Forms.Label label5 : Public
+    System.Windows.Forms.Label label6 : Public
+    System.Windows.Forms.Label label7 : Public
+    System.Windows.Forms.Label label8 : Public
+    System.Windows.Forms.TextBox searchtxt : Public
+    System.Windows.Forms.TextBox fnametxt : Public
+    System.Windows.Forms.TextBox lnametxt : Public
+    System.Windows.Forms.TextBox idtxt : Public
+    System.Windows.Forms.TextBox addresstxt : Public
+    System.Windows.Forms.RadioButton malerbtn : Public
+    System.Windows.Forms.RadioButton fmalerbtn : Public
+    System.Windows.Forms.ComboBox racecb : Public
+    System.Windows.Forms.Label label9 : Public
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.ComponentModel.Container components : Public
+  Methods:
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    fmalerbtn_CheckedChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    malerbtn_CheckedChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    searchbtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    textBox2_TextChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+Class Project3.Main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
